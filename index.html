@@ -75,13 +75,249 @@
 
     <h2>6.List of some tags?</h2>
     <ol>
-        <li>< h1> to < /h6></li>
-        <li>< p>...< /p></li>
-        <li>< ol>...< /ol></li>
-        <li>< ul>...< /ul></li>
-        <li>< section>...< /section></li>
-        <li>< div>...< /div></li>
-        <li>< u>...< /u></li>
+        <li>
+            < h1> to < /h6>
+        </li>
+        <li>
+            < p>...< /p>
+        </li>
+        <li>
+            < ol>...< /ol>
+        </li>
+        <li>
+            < ul>...< /ul>
+        </li>
+        <li>
+            < section>...< /section>
+        </li>
+        <li>
+            < div>...< /div>
+        </li>
+        <li>
+            < u>...< /u>
+        </li>
     </ol>
 
 
+    <!-- TAGS -->
+    <h2>81.< pre> tag- Preformatted text</h2>
+    <p>Text in a < pre> element is displayed in a fixed-width font, and the text preserves both spaces and line breaks.
+            The text will be displayed exactly as written in the HTML source code.Monosapce font will display.</p>
+
+    <pre>
+        Text in a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both      spaces and
+        line breaks
+    </pre>
+
+    <h2>Standard pre</h2>
+    <pre>
+        This is a standard pre. 
+        It will use as much space as        it needs.</pre>
+
+    <h2>Fixed width pre</h2>
+    <div style="width:200px;overflow:auto">
+        <pre>This is a pre with a fixed width. It will use as much space as specified.</pre>
+    </div>
+
+    <!-- Progress -->
+    <h2>82.< progress> tag- completion progress of a task.</h2>
+
+    <label for="file">Downloading Progress:</label>
+    <progress id="file" value="10" max="100">10%</progress>
+
+    <!--short quotation  -->
+    <h2>83.< q> tag- defines a short quotation.</h2>
+
+    <p>
+        Raghul is a <q>web developer.</q>
+    </p>
+
+    <!--<S> -->
+    <h2>84.< s> tag- The text will be displayed with a line through it.</h2>
+    <h1>The s element</h1>
+
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+
+    <!-- <Samp> -->
+    <h2>85.< samp> tag- Display in Monospace font</h2>
+
+    <p>Message from my computer:</p>
+
+    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+    <!-- script -->
+
+    <!-- section -->
+
+    <!-- select -->
+    <h2>88.< select> tag- create a drop-down list & used in a form, to collect user input.</h2>
+
+    <h1>The select element</h1>
+
+    <p>The select element is used to create a drop-down list.</p>
+
+    <form action="list">
+        <label for="cars">Types of Cars:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>Click the "Submit" button and the form-data will be sent to a page on the
+        server called "action_page.php".</p>
+
+
+
+    <!-- small -->
+    <h2>89.< small> tag-defines smaller text (like copyright and other side-comments).</h2>
+
+    <h1>The small element</h1>
+
+    <p>This is some normal text.</p>
+    <p><small>This is some smaller text.</small></p>
+
+    <!-- source -->
+    <h2>89.< source> tag-used to specify multiple media resources for media elements, such as < video>, < audio>, and <
+                        picture>.</h2>
+    <h1>The source element</h1>
+
+    <p>Click on the play button to play a sound:</p>
+
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- span -->
+    <h2>
+        90.< span> tag-is an inline container used to mark up a part of a text
+    </h2>
+
+    <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span
+            style="color:red;font-weight:bold">dark green</span> eyes.</p>
+
+
+    <!-- strike -->
+    <h2>91.< strike> tag-Not used in HTML5..so we can use < s>tag</h2>
+
+    <!-- strong -->
+    <h2>92.< strong> tag-define text with strong importance & displayed in bold</h2>
+
+    <p>This text is normal.</p>
+
+    <p><strong>This text is important!</strong></p>
+
+    <!-- style -->
+    <h2>
+        93.< styl> tag- define style information CSS for a document.
+
+    </h2>
+    <!-- summary -->
+    <h2>94.< summary> tag-defines a visible heading for the < details> element. The heading can be clicked to view/hide
+                the details.
+    </h2>
+
+    <h1>The summary element</h1>
+
+    <details>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </details>
+
+    <!-- sub -->
+    <h2>
+        95.< sub> tag
+    </h2>
+    <h3>Defines subscript text. Subscript text appears half a character below the normal line, and is sometimes
+        rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.</h3>
+
+    <p>This text contains <sub>subscript</sub> text.</p>
+    <!-- sup -->
+    <h2>
+        96.< sub> tag
+    </h2>
+    <h3>Defines superscript text. Superscript text appears half a character above the normal line, and is sometimes
+        rendered in a smaller font.Superscript text can be used for footnotes, like WWW[1].</h3>
+
+    <p>This text contains <sup>subscript</sup> text.</p>
+
+    <!-- SVG -->
+    <h2>97.< svg> tag-defines a container for SVG graphics.</h2>
+    <p> Used for drawing paths, boxes, circles, text, and graphic images.</p>
+
+    <!-- Template -->
+    <h2>
+        98.< template> tag-Used as a container to hold some HTML content hidden from the user when the page loads.</h2>
+    <p>
+        The content inside < template> can be rendered later with a JavaScript.</p>
+
+    <!-- Textarea -->
+    <h2>
+        99.< textarea> tag -defines a multi-line text input control.
+    </h2>
+    <p>
+        used in a form, to collect user inputs like comments or reviews. <br>
+
+        A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually
+        Courier). <br>
+
+        The size of a text area is specified by the <cols> and <rows> attributes (or with CSS).
+    </p>
+
+    <!-- time -->
+    <h2>
+        100.< time> tag-defines a specific time (or datetime).
+            The datetime attribute of this element is used translate the time into a machine-readable format.
+    </h2>
+
+    <h1>The time element</h1>
+
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+    <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+    <p><b>Note:</b> The time element does not render as anything special in any of the major browsers.</p>
+
+    <!-- TITLE -->
+    <h2>
+        101.< title> tag-defines the title of the document
+    </h2>
+    <p>
+        The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+    </p>
+
+    <!-- track -->
+    <h2>
+        102.< track> tag-specifies text tracks for < audio> or < video> elements.
+    </h2>
+
+    <p>This element is used to specify subtitles, caption files or other files containing text, that should be visible
+        when the media is playing.
+
+        <br> Tracks are formatted in WebVTT format (.vtt files).
+    </p>
+
+
+    <!--tt  -->
+    <h2>
+        103.< tt> tag-Not supported in HTML5..so we can use < kdb>..output in monospace font.
+    </h2>
+
+    <!-- wbr -->
+    <h2>
+        < wbr> tag-word break Opportunity.It used to create break between words
+    </h2>
+</body>
+
+</html>
