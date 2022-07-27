@@ -1,7 +1,7 @@
 .container{
 width: 1800px;
 margin: auto;
-/* border: solid 2px red; */
+}
 
 /* }
 .header-wrapper{
@@ -27,3 +27,45 @@ main{
 main p :nth-child(1){
     width: 200px;
 } */
+
+/* pseudo element */
+
+p::first-line{
+    color: rgb(7, 214, 17);
+}
+p::first-letter{
+    color: red;
+}
+p::before{
+    content: "hai!";
+}
+p::after{
+    content: "bye!";
+    color: violet;
+}
+::marker{
+    color: rgb(42, 81, 165);
+}
+::selection{
+    background-color: aqua;
+    color: rgb(158, 18, 201);
+}
+
+/* pseudo class */
+
+nav a:hover{
+    background-color: aqua;
+    color: white;
+}
+
+nav a:link{
+    color: blueviolet;
+}
+
+nav a:visited{
+    color: brown;
+}
+
+nav a .active:hover{
+    color: black;
+}
