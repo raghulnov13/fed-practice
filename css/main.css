@@ -1,6 +1,8 @@
-.container{
-width: 1800px;
-margin: auto;
+.container {
+    width: 1800px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 /* }
@@ -30,42 +32,52 @@ main p :nth-child(1){
 
 /* pseudo element */
 
-p::first-line{
+p::first-line {
     color: rgb(7, 214, 17);
 }
-p::first-letter{
+
+p::first-letter {
     color: red;
 }
-p::before{
+
+p::before {
     content: "hai!";
 }
-p::after{
+
+p::after {
     content: "bye!";
     color: violet;
 }
-::marker{
+
+::marker {
     color: rgb(42, 81, 165);
 }
-::selection{
+
+::selection {
     background-color: aqua;
     color: rgb(158, 18, 201);
 }
 
 /* pseudo class */
 
-nav a:hover{
+nav a:hover {
     background-color: aqua;
     color: white;
 }
 
-nav a:link{
+nav a:link {
     color: blueviolet;
 }
 
-nav a:visited{
+nav a:visited {
     color: brown;
+
 }
 
-nav a .active:hover{
+nav a .active:hover {
     color: black;
+}
+
+.vicky img {
+    vertical-align: text-bottom;
 }
