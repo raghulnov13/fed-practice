@@ -9,14 +9,14 @@
     <title>Document</title>
 
     <style>
-        div {
-          background-color: lightgrey;
-          width: 300px;
-          border: 15px solid green;
-          padding: 50px;
-          margin: 20px;
+        section {
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
         }
-        </style>
+    </style>
 </head>
 
 <body>
@@ -502,13 +502,105 @@
     </ol>
 
     <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding,
-    margins, and the actual content.</p>
+        margins, and the actual content.</p>
 
-    <div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim
+    <section>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut
+        enim
         ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </section>
+
+    <!-- CSS Box Shadow -->
+    <h2>CSS box-shadow Property</h2>
+    <h3> Horizontal and a vertical shadow</h3>
+    <p>
+        The CSS box-shadow property is used to apply one or more shadows to an element.
+    </p>
+
+    <div class="box-shadow">
+
+        <p>
+            Example for horizontal and vertical shadows.
+        </p>
+    </div>
+
+    <h3>Color for the shadow</h3>
+    <div class="box-shadow1">
+
+        <p>
+            Example for horizontal and vertical shadows with color.
+        </p>
+    </div>
+
+    <h3>blur effect to the shadow</h3>
+    <div class="box-shadow2">
+
+        <p>
+            3rd value gives blur effect to the shadow.
+        </p>
+    </div>
+
+    <h3>Spread radius of the shadow</h3>
+    <p>
+        A positive value increases the size of the shadow, a negative value decreases the size of the shadow.
+
+    </p>
+    <div class="box-shadow3">
+
+        <p>
+            4th value gives radius effect to the shadow.
+        </p>
+    </div>
+
+    <h3>Inset Parameter</h3>
+    <p>
+        The inset parameter changes the shadow from an outer shadow (outset) to an inner shadow.
+    </p>
+    <div class="box-shadow4">
+
+        <p>
+            3rd value +color then inset gives this output
+        </p>
+    </div>
+
+    <!-- Transition -->
+    <h2>Transitions</h2>
+    <ol>
+        <li>transition</li>
+        <li>transition-delay</li>
+        <li>transition-duration</li>
+        <li>transition-property</li>
+        <li>transition-timing-function</li>
+    </ol>
+
+    <div class="trans">
+        <h6>
+
+        </h6>
+    </div>
+<!-- filter -->
+<h2>Filter</h2>
+<ol>
+    <li>blur(px)</li>
+    <li>brightness(%)</li>
+    <li>contrast(%)</li>
+    <li>grayscale(%)</li>
+    <li>drop-shadow</li>
+    <li>hue-rotate(deg)</li>
+    <li>invert(%)</li>
+    <li>opacity(%)</li>
+    <li>saturate(%)</li>
+    <li>sepia(%)</li>
+</ol>
+
+
+
+
+
 
 </body>
+
+
 
 </html>

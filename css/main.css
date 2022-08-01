@@ -2,7 +2,7 @@
     width: 1800px;
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
-    
+
 }
 
 /* }
@@ -80,4 +80,59 @@ nav a .active:hover {
 
 .image img {
     vertical-align: text-bottom;
+}
+
+/* box shadow */
+.box-shadow p {
+    width: 400px;
+    height: 100px;
+    background-color: brown;
+    padding: 30px;
+    box-shadow: 10px 10px;
+}
+
+.box-shadow1 p {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: yellow;
+    box-shadow: 10px 10px lightblue;
+}
+.box-shadow2 p {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color:green;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.box-shadow3 p {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color:red;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+.box-shadow4 p {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color:seagreen;
+    box-shadow: 10px 10px 5px  lightblue inset;
+}
+
+.trans h6{
+    width: 100px;
+    height: 100px;
+    background-color:darkorchid;
+    margin: 100px auto;
+    transition:all 0.5s ease-in;
+
+}
+.trans h6:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+    transform: rotate(180deg);
+
 }
