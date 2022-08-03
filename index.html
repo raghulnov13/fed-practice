@@ -579,20 +579,143 @@
 
         </h6>
     </div>
-<!-- filter -->
-<h2>Filter</h2>
-<ol>
-    <li>blur(px)</li>
-    <li>brightness(%)</li>
-    <li>contrast(%)</li>
-    <li>grayscale(%)</li>
-    <li>drop-shadow</li>
-    <li>hue-rotate(deg)</li>
-    <li>invert(%)</li>
-    <li>opacity(%)</li>
-    <li>saturate(%)</li>
-    <li>sepia(%)</li>
-</ol>
+    <!-- filter -->
+    <h2>Filter</h2>
+    <ol>
+        <li>blur(px)</li>
+        <li>brightness(%)</li>
+        <li>contrast(%)</li>
+        <li>grayscale(%)</li>
+        <li>drop-shadow</li>
+        <li>hue-rotate(deg)</li>
+        <li>invert(%)</li>
+        <li>opacity(%)</li>
+        <li>saturate(%)</li>
+        <li>sepia(%)</li>
+    </ol>
+
+    <!-- forms -->
+    <h1>Html Forms</h1>
+    <p>
+        An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+    </p>
+
+    <h1>Input type attributes</h1>
+    <ol>
+
+        <li>
+            <.input type="text"> Displays a single-line text input field
+        </li>
+        <li>
+            <.input type="radio"> Displays a radio button (for selecting one of many choices)
+        </li>
+        <li>
+            <.input type="checkbox"> Displays a checkbox (for selecting zero or more of many choices)
+        </li>
+        <li>
+            <.input type="submit"> Displays a submit button (for submitting the form)
+        </li>
+        <li>
+            <.input type="button"> Displays a clickable button
+        </li>
+
+    </ol>
+    <h1>Form attributes</h1>
+    <ol>
+
+        <li>
+            The action attribute defines the action to be performed when the form is submitted.
+        </li>
+        <li>
+            The target attribute specifies where to display the response that is received after submitting the form.
+        </li>
+        <li>
+            The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with
+            method="post").
+        </li>
+        <li>
+            The autocomplete attribute specifies whether a form should have autocomplete on or off.
+
+        </li>
+        <li>
+            The novalidate attribute is a boolean attribute.
+
+        </li>
+
+    </ol>
+
+    <h1>Form elements</h1>
+    <ol>
+
+        <li>
+            < input>
+        </li>
+        <li>
+            < label>
+        </li>
+        <li>
+            < select>
+        </li>
+        <li>
+            < textarea>
+        </li>
+        <li>
+            < button>
+        </li>
+        <li>
+            < fieldset>
+        </li>
+        <li>
+            < legend>
+        </li>
+        <li>
+            < datalist>
+        </li>
+        <li>
+            < output>
+        </li>
+        <li>
+            < option>
+        </li>
+        <li>
+            < optgroup>
+        </li>
+
+    </ol>
+
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Username" required><br>
+        <input type="email" name="email" placeholder="Enterurmail@id"><br>
+        <input type="text" name="subject" placeholder="Compose"> <br>
+        <textarea name="message" placeholder="Enter Your Message"></textarea> <br>
+        <input type="submit" value="Send Now">
+
+    </form>
+
+    <h1>Example 2</h1>
+    <form action="#">
+        <label for="company">Choose a company:</label>
+        <select id="company" name="company">
+          <option value="wipro">Wipro</option>
+          <option value="zoho">Zoho</option>
+          <option value="Infosys">Infosys</option>
+          <option value="Tcs">Tcs</option>
+        </select>
+        <input type="submit">
+      </form>
+
+      <h1>Example 3</h1>
+      <form action="#">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+        <input type="submit">
+      </form>
 
 
 
