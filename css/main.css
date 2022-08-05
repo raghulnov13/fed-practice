@@ -163,3 +163,36 @@ nav a .active:hover {
 a .button{
     display: inline-block;
 }
+/* css units */
+p {
+    font-size: 16px;
+    line-height: 2em;
+  }
+  
+  .hai {
+    font-size: 30px;
+    border: 1px solid black;
+  }
+  
+  span {
+    font-size: 0.5em;
+  }
+
+  /*  em*/
+  .child1{
+    font-size: 2em;
+
+  }
+.child2{
+    font-size: 4em;
+
+}
+  /*  rem*/
+  .child3{
+    font-size: 1rem;
+
+  }
+.child4{
+    font-size: 3rem;
+
+}
