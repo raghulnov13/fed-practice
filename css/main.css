@@ -138,61 +138,324 @@ nav a .active:hover {
 } */
 
 /* display property */
-.display div{
+.display div {
     display: block;
     background-color: brown;
     height: 80px;
     width: 200px;
 
 }
-.display span{
+
+.display span {
     display: inline-block;
     background-color: rgb(42, 165, 63);
     /* height: 80px;
     width: 200px; */
-    
+
 
 }
-.button a{
+
+.button a {
     text-decoration: none;
     background-color: black;
     padding: 10px;
-    color: antiquewhite ;
+    color: antiquewhite;
     border: 1px solid black;
-}   
-a .button{
+}
+
+a .button {
     display: inline-block;
 }
+
 /* css units */
 p {
     font-size: 16px;
     line-height: 2em;
-  }
-  
-  .hai {
+}
+
+.hai {
     font-size: 30px;
     border: 1px solid black;
-  }
-  
-  span {
-    font-size: 0.5em;
-  }
+}
 
-  /*  em*/
-  .child1{
+span {
+    font-size: 0.5em;
+}
+
+/*  em*/
+.child1 {
     font-size: 2em;
 
-  }
-.child2{
+}
+
+.child2 {
     font-size: 4em;
 
 }
-  /*  rem*/
-  .child3{
+
+/*  rem*/
+.child3 {
     font-size: 1rem;
 
-  }
-.child4{
+}
+
+.child4 {
     font-size: 3rem;
 
+}
+
+/* cursor */
+.cursor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cursor1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.a1 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor: alias;
+
+}
+.a2 {
+    border: 3px solid green;
+    width: 100px;
+    padding: 20px;
+    cursor:all-scroll;
+
+}
+.a3 {
+    border: 3px solid yellow;
+    width: 100px;
+    padding: 20px;
+    cursor: cell;
+
+}
+.a4 {
+    border: 3px solid black;
+    width: 100px;
+    padding: 20px;
+    cursor:col-resize;
+
+}
+.a5 {
+    border: 3px solid violet;
+    width: 100px;
+    padding: 20px;
+    cursor:context-menu;
+
+}
+.a6 {
+    border: 3px solid lightcoral;
+    width: 100px;
+    padding: 20px;
+    cursor:copy;
+
+}
+.a7 {
+    border: 3px solid rgb(14, 245, 130);
+    width: 100px;
+    padding: 20px;
+    cursor:crosshair;
+
+}
+.a8 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:e-resize;
+
+}
+.a9 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:ew-resize;
+
+}
+.a10 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:grab;
+
+}
+.a11 {
+    border: 3px solid ;
+    width: 100px;
+    padding: 20px;
+    cursor:grab;
+
+}
+.a12 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:grab;
+
+}
+.b1 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:grabbing;
+
+}
+.b2 {
+    border: 3px solid green;
+    width: 100px;
+    padding: 20px;
+    cursor:help;
+
+}
+.b3 {
+    border: 3px solid yellow;
+    width: 100px;
+    padding: 20px;
+    cursor:move;
+
+}
+.b4 {
+    border: 3px solid black;
+    width: 100px;
+    padding: 20px;
+    cursor:n-resize;
+
+}
+.b5 {
+    border: 3px solid violet;
+    width: 100px;
+    padding: 20px;
+    cursor:ne-resize;
+
+}
+.b6 {
+    border: 3px solid lightcoral;
+    width: 100px;
+    padding: 20px;
+    cursor:nesw-resize;
+
+}
+.b7 {
+    border: 3px solid rgb(14, 245, 130);
+    width: 100px;
+    padding: 20px;
+    cursor:no-drop;
+
+}
+.b8 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:none;
+
+}
+.b9 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:not-allowed;
+
+}
+.b10 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:ns-resize;
+
+}
+.b11 {
+    border: 3px solid ;
+    width: 100px;
+    padding: 20px;
+    cursor:nw-resize;
+
+}
+.b12 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:nwse-resize;
+}
+.b13 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:pointer;
+}
+.b14{
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:progress;
+}
+.b15 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:row-resize;
+}
+.b16 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:s-resize;
+}
+.b17 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:se-resize;
+}
+.b18 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:sw-resize;
+}
+.b19 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:text;
+}
+.b20 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:vertical-text;
+}
+.b21 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:w-resize;
+}
+.b22 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:wait;
+}
+.b23 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:zoom-in;
+}
+.b24 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:zoom-out;
+}
+.b25 {
+    border: 3px solid red;
+    width: 100px;
+    padding: 20px;
+    cursor:-moz-grab;
 }
